@@ -1,6 +1,6 @@
 # Docker image file that describes an Ubuntu14.04 image with PowerShell installed from Microsoft APT Repo
 
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190515
 
 ARG POWERSHELL_VERSION=6.0.2
 ARG IMAGE_NAME=microsoft/powershell:ubuntu14.04
