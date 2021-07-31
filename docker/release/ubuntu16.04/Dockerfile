@@ -1,6 +1,6 @@
 # Docker image file that describes an Ubuntu16.04 image with PowerShell installed from Microsoft APT Repo
 
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 
 ARG POWERSHELL_VERSION=6.0.2
 ARG IMAGE_NAME=microsoft/powershell:ubuntu16.04
