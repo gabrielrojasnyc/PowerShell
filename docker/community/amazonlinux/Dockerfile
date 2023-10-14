@@ -1,6 +1,6 @@
 # Docker image file that describes an Amazon Linux image with PowerShell installed from PowerShell Release
 
-FROM amazonlinux:latest
+FROM amazonlinux:2.0.20230926.0
 
 ARG POWERSHELL_VERSION=6.0.2
 ARG POWERSHELL_PACKAGE=powershell-6.0.2-linux-x64.tar.gz
